@@ -11,8 +11,8 @@ import {
     getSubmissionHistory,
     getActivityLeaderboard,
     getUserActivitySummary
-} from '../controllers/leaderboardController.js';
-import { verifyjwt } from '../middlewares/authmiddleware.js';
+} from './controllers/leaderboardController.js';
+import { verifyjwt } from './middlewares/authmiddleware.js';
 
 const router = express.Router();
 
